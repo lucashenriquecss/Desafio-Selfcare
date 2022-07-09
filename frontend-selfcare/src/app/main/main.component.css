@@ -9,7 +9,7 @@ img{
 
 }
 .promo{
-  border-bottom:1px solid black;
+  border-bottom:1px solid #ccc;
 }
 .title-promotion{
   align-items: center;
@@ -17,6 +17,7 @@ img{
   justify-content: space-between;
   width:80vw;
   margin: auto;
+  border-bottom:1px solid #ccc;
 }
 .title-promotion a{
   padding: 20px 0px;
@@ -25,22 +26,25 @@ img{
 
 
 .cards{
-
-  background-color: antiquewhite;
-  padding: 20px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
+  grid-template-columns: 50px 50px 50px;
+  justify-content: space-evenly;
+  gap: 20px;
+
+
 }
 .card{
-
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  background-color:blueviolet ;
   width: 20vw;
   height: auto;
+
 }
 .foto-card{
   width: 100%;
   height: 400px;
+}
+
+a{
+  color:#5CA720;
 }
