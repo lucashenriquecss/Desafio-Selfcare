@@ -1,0 +1,46 @@
+
+main{
+
+}
+
+img{
+  width: 100%;
+  height:auto;
+
+}
+.promo{
+  border-bottom:1px solid black;
+}
+.title-promotion{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width:80vw;
+  margin: auto;
+}
+.title-promotion a{
+  padding: 20px 0px;
+
+}
+
+
+.cards{
+
+  background-color: antiquewhite;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+.card{
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color:blueviolet ;
+  width: 20vw;
+  height: auto;
+}
+.foto-card{
+  width: 100%;
+  height: 400px;
+}
